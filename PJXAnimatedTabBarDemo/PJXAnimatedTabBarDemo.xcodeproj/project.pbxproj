@@ -1,0 +1,709 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C5519D4A1C33B4A9002F5105 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C5519D491C33B4A9002F5105 /* main.m */; };
+		C5519D4D1C33B4A9002F5105 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C5519D4C1C33B4A9002F5105 /* AppDelegate.m */; };
+		C5519D501C33B4A9002F5105 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5519D4F1C33B4A9002F5105 /* ViewController.m */; };
+		C5519D531C33B4A9002F5105 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5519D511C33B4A9002F5105 /* Main.storyboard */; };
+		C5519D551C33B4A9002F5105 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5519D541C33B4A9002F5105 /* Assets.xcassets */; };
+		C5519D631C33B4A9002F5105 /* PJXAnimatedTabBarDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C5519D621C33B4A9002F5105 /* PJXAnimatedTabBarDemoTests.m */; };
+		C5519D6E1C33B4A9002F5105 /* PJXAnimatedTabBarDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C5519D6D1C33B4A9002F5105 /* PJXAnimatedTabBarDemoUITests.m */; };
+		C5519D7F1C33B5B6002F5105 /* PJXAnimatedTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5519D7E1C33B5B6002F5105 /* PJXAnimatedTabBarController.m */; };
+		C5519D9F1C33CB45002F5105 /* ToolsAnimation.plist in Resources */ = {isa = PBXBuildFile; fileRef = C5519D9E1C33CB45002F5105 /* ToolsAnimation.plist */; };
+		C5519DA21C33D19D002F5105 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5519DA01C33D19D002F5105 /* LaunchScreen.storyboard */; };
+		C5519DAA1C340BDC002F5105 /* PJXItemAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = C5519DA91C340BDC002F5105 /* PJXItemAnimation.m */; };
+		C5519DAE1C340F7D002F5105 /* PJXBadge.m in Sources */ = {isa = PBXBuildFile; fileRef = C5519DAD1C340F7D002F5105 /* PJXBadge.m */; };
+		C5519DB11C3410F5002F5105 /* PJXFumeAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = C5519DB01C3410F5002F5105 /* PJXFumeAnimation.m */; };
+		C5519DB41C341E0D002F5105 /* PJXBounceAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = C5519DB31C341E0D002F5105 /* PJXBounceAnimation.m */; };
+		C5519DB71C3421D0002F5105 /* PJXFrameItemAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = C5519DB61C3421D0002F5105 /* PJXFrameItemAnimation.m */; };
+		C5519DBA1C342615002F5105 /* PJXAnimatedTabBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = C5519DB91C342615002F5105 /* PJXAnimatedTabBarItem.m */; };
+		C5519DBE1C351776002F5105 /* PJXIconView.m in Sources */ = {isa = PBXBuildFile; fileRef = C5519DBD1C351776002F5105 /* PJXIconView.m */; };
+		C5519DC21C351FF2002F5105 /* NSArray+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = C5519DC11C351FF2002F5105 /* NSArray+Extension.m */; };
+		C5519DC51C353701002F5105 /* PJXRotationAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = C5519DC41C353701002F5105 /* PJXRotationAnimation.m */; };
+		C5519DCB1C353740002F5105 /* PJXTransitionItemAnimations.m in Sources */ = {isa = PBXBuildFile; fileRef = C5519DCA1C353740002F5105 /* PJXTransitionItemAnimations.m */; };
+		C5519DCE1C35519D002F5105 /* PJXFlipLeftTransitionItemAniamtions.m in Sources */ = {isa = PBXBuildFile; fileRef = C5519DCD1C35519D002F5105 /* PJXFlipLeftTransitionItemAniamtions.m */; };
+		C5519DD11C3551C8002F5105 /* PJXFlipRightTransitionItemAnimations.m in Sources */ = {isa = PBXBuildFile; fileRef = C5519DD01C3551C8002F5105 /* PJXFlipRightTransitionItemAnimations.m */; };
+		C5519DD41C3551F3002F5105 /* PJXFlipTopTransitionItemAnimations.m in Sources */ = {isa = PBXBuildFile; fileRef = C5519DD31C3551F3002F5105 /* PJXFlipTopTransitionItemAnimations.m */; };
+		C5519DD71C355225002F5105 /* PJXFlipBottomTransitionItemAnimations.m in Sources */ = {isa = PBXBuildFile; fileRef = C5519DD61C355225002F5105 /* PJXFlipBottomTransitionItemAnimations.m */; };
+		C5519DDA1C35525B002F5105 /* PJXLeftRotationAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = C5519DD91C35525B002F5105 /* PJXLeftRotationAnimation.m */; };
+		C5519DDD1C355281002F5105 /* PJXRightRotationAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = C5519DDC1C355281002F5105 /* PJXRightRotationAnimation.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C5519D5F1C33B4A9002F5105 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C5519D3D1C33B4A9002F5105 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C5519D441C33B4A9002F5105;
+			remoteInfo = PJXAnimatedTabBarDemo;
+		};
+		C5519D6A1C33B4A9002F5105 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C5519D3D1C33B4A9002F5105 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C5519D441C33B4A9002F5105;
+			remoteInfo = PJXAnimatedTabBarDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C5519D451C33B4A9002F5105 /* PJXAnimatedTabBarDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PJXAnimatedTabBarDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5519D491C33B4A9002F5105 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C5519D4B1C33B4A9002F5105 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C5519D4C1C33B4A9002F5105 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C5519D4E1C33B4A9002F5105 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C5519D4F1C33B4A9002F5105 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C5519D521C33B4A9002F5105 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C5519D541C33B4A9002F5105 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C5519D591C33B4A9002F5105 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5519D5E1C33B4A9002F5105 /* PJXAnimatedTabBarDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PJXAnimatedTabBarDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5519D621C33B4A9002F5105 /* PJXAnimatedTabBarDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PJXAnimatedTabBarDemoTests.m; sourceTree = "<group>"; };
+		C5519D641C33B4A9002F5105 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5519D691C33B4A9002F5105 /* PJXAnimatedTabBarDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PJXAnimatedTabBarDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5519D6D1C33B4A9002F5105 /* PJXAnimatedTabBarDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PJXAnimatedTabBarDemoUITests.m; sourceTree = "<group>"; };
+		C5519D6F1C33B4A9002F5105 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5519D7D1C33B5B6002F5105 /* PJXAnimatedTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PJXAnimatedTabBarController.h; sourceTree = "<group>"; };
+		C5519D7E1C33B5B6002F5105 /* PJXAnimatedTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PJXAnimatedTabBarController.m; sourceTree = "<group>"; };
+		C5519D9E1C33CB45002F5105 /* ToolsAnimation.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ToolsAnimation.plist; sourceTree = "<group>"; };
+		C5519DA11C33D19D002F5105 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C5519DA81C340BDC002F5105 /* PJXItemAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PJXItemAnimation.h; sourceTree = "<group>"; };
+		C5519DA91C340BDC002F5105 /* PJXItemAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PJXItemAnimation.m; sourceTree = "<group>"; };
+		C5519DAC1C340F7D002F5105 /* PJXBadge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PJXBadge.h; sourceTree = "<group>"; };
+		C5519DAD1C340F7D002F5105 /* PJXBadge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PJXBadge.m; sourceTree = "<group>"; };
+		C5519DAF1C3410F5002F5105 /* PJXFumeAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PJXFumeAnimation.h; sourceTree = "<group>"; };
+		C5519DB01C3410F5002F5105 /* PJXFumeAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PJXFumeAnimation.m; sourceTree = "<group>"; };
+		C5519DB21C341E0D002F5105 /* PJXBounceAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PJXBounceAnimation.h; sourceTree = "<group>"; };
+		C5519DB31C341E0D002F5105 /* PJXBounceAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PJXBounceAnimation.m; sourceTree = "<group>"; };
+		C5519DB51C3421D0002F5105 /* PJXFrameItemAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PJXFrameItemAnimation.h; sourceTree = "<group>"; };
+		C5519DB61C3421D0002F5105 /* PJXFrameItemAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PJXFrameItemAnimation.m; sourceTree = "<group>"; };
+		C5519DB81C342615002F5105 /* PJXAnimatedTabBarItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PJXAnimatedTabBarItem.h; sourceTree = "<group>"; };
+		C5519DB91C342615002F5105 /* PJXAnimatedTabBarItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PJXAnimatedTabBarItem.m; sourceTree = "<group>"; };
+		C5519DBC1C351776002F5105 /* PJXIconView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PJXIconView.h; sourceTree = "<group>"; };
+		C5519DBD1C351776002F5105 /* PJXIconView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PJXIconView.m; sourceTree = "<group>"; };
+		C5519DC01C351FF2002F5105 /* NSArray+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Extension.h"; sourceTree = "<group>"; };
+		C5519DC11C351FF2002F5105 /* NSArray+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Extension.m"; sourceTree = "<group>"; };
+		C5519DC31C353701002F5105 /* PJXRotationAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PJXRotationAnimation.h; sourceTree = "<group>"; };
+		C5519DC41C353701002F5105 /* PJXRotationAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PJXRotationAnimation.m; sourceTree = "<group>"; };
+		C5519DC91C353740002F5105 /* PJXTransitionItemAnimations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PJXTransitionItemAnimations.h; sourceTree = "<group>"; };
+		C5519DCA1C353740002F5105 /* PJXTransitionItemAnimations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PJXTransitionItemAnimations.m; sourceTree = "<group>"; };
+		C5519DCC1C35519D002F5105 /* PJXFlipLeftTransitionItemAniamtions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PJXFlipLeftTransitionItemAniamtions.h; sourceTree = "<group>"; };
+		C5519DCD1C35519D002F5105 /* PJXFlipLeftTransitionItemAniamtions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PJXFlipLeftTransitionItemAniamtions.m; sourceTree = "<group>"; };
+		C5519DCF1C3551C8002F5105 /* PJXFlipRightTransitionItemAnimations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PJXFlipRightTransitionItemAnimations.h; sourceTree = "<group>"; };
+		C5519DD01C3551C8002F5105 /* PJXFlipRightTransitionItemAnimations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PJXFlipRightTransitionItemAnimations.m; sourceTree = "<group>"; };
+		C5519DD21C3551F3002F5105 /* PJXFlipTopTransitionItemAnimations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PJXFlipTopTransitionItemAnimations.h; sourceTree = "<group>"; };
+		C5519DD31C3551F3002F5105 /* PJXFlipTopTransitionItemAnimations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PJXFlipTopTransitionItemAnimations.m; sourceTree = "<group>"; };
+		C5519DD51C355225002F5105 /* PJXFlipBottomTransitionItemAnimations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PJXFlipBottomTransitionItemAnimations.h; sourceTree = "<group>"; };
+		C5519DD61C355225002F5105 /* PJXFlipBottomTransitionItemAnimations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PJXFlipBottomTransitionItemAnimations.m; sourceTree = "<group>"; };
+		C5519DD81C35525B002F5105 /* PJXLeftRotationAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PJXLeftRotationAnimation.h; sourceTree = "<group>"; };
+		C5519DD91C35525B002F5105 /* PJXLeftRotationAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PJXLeftRotationAnimation.m; sourceTree = "<group>"; };
+		C5519DDB1C355281002F5105 /* PJXRightRotationAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PJXRightRotationAnimation.h; sourceTree = "<group>"; };
+		C5519DDC1C355281002F5105 /* PJXRightRotationAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PJXRightRotationAnimation.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C5519D421C33B4A9002F5105 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5519D5B1C33B4A9002F5105 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5519D661C33B4A9002F5105 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C5519D3C1C33B4A9002F5105 = {
+			isa = PBXGroup;
+			children = (
+				C5519D471C33B4A9002F5105 /* PJXAnimatedTabBarDemo */,
+				C5519D611C33B4A9002F5105 /* PJXAnimatedTabBarDemoTests */,
+				C5519D6C1C33B4A9002F5105 /* PJXAnimatedTabBarDemoUITests */,
+				C5519D461C33B4A9002F5105 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C5519D461C33B4A9002F5105 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C5519D451C33B4A9002F5105 /* PJXAnimatedTabBarDemo.app */,
+				C5519D5E1C33B4A9002F5105 /* PJXAnimatedTabBarDemoTests.xctest */,
+				C5519D691C33B4A9002F5105 /* PJXAnimatedTabBarDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C5519D471C33B4A9002F5105 /* PJXAnimatedTabBarDemo */ = {
+			isa = PBXGroup;
+			children = (
+				C5519D7B1C33B543002F5105 /* PJXAnimatedTabBarController */,
+				C5519D4B1C33B4A9002F5105 /* AppDelegate.h */,
+				C5519D4C1C33B4A9002F5105 /* AppDelegate.m */,
+				C5519D4E1C33B4A9002F5105 /* ViewController.h */,
+				C5519D4F1C33B4A9002F5105 /* ViewController.m */,
+				C5519D511C33B4A9002F5105 /* Main.storyboard */,
+				C5519DA01C33D19D002F5105 /* LaunchScreen.storyboard */,
+				C5519D9D1C33CB45002F5105 /* Resources */,
+				C5519D541C33B4A9002F5105 /* Assets.xcassets */,
+				C5519D591C33B4A9002F5105 /* Info.plist */,
+				C5519D481C33B4A9002F5105 /* Supporting Files */,
+			);
+			path = PJXAnimatedTabBarDemo;
+			sourceTree = "<group>";
+		};
+		C5519D481C33B4A9002F5105 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C5519D491C33B4A9002F5105 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C5519D611C33B4A9002F5105 /* PJXAnimatedTabBarDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				C5519D621C33B4A9002F5105 /* PJXAnimatedTabBarDemoTests.m */,
+				C5519D641C33B4A9002F5105 /* Info.plist */,
+			);
+			path = PJXAnimatedTabBarDemoTests;
+			sourceTree = "<group>";
+		};
+		C5519D6C1C33B4A9002F5105 /* PJXAnimatedTabBarDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C5519D6D1C33B4A9002F5105 /* PJXAnimatedTabBarDemoUITests.m */,
+				C5519D6F1C33B4A9002F5105 /* Info.plist */,
+			);
+			path = PJXAnimatedTabBarDemoUITests;
+			sourceTree = "<group>";
+		};
+		C5519D7B1C33B543002F5105 /* PJXAnimatedTabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				C5519DBF1C351FC4002F5105 /* Category */,
+				C5519DAB1C340F62002F5105 /* PJXBadge */,
+				C5519D7C1C33B566002F5105 /* Animations */,
+				C5519D7D1C33B5B6002F5105 /* PJXAnimatedTabBarController.h */,
+				C5519D7E1C33B5B6002F5105 /* PJXAnimatedTabBarController.m */,
+				C5519DA81C340BDC002F5105 /* PJXItemAnimation.h */,
+				C5519DA91C340BDC002F5105 /* PJXItemAnimation.m */,
+				C5519DB81C342615002F5105 /* PJXAnimatedTabBarItem.h */,
+				C5519DB91C342615002F5105 /* PJXAnimatedTabBarItem.m */,
+				C5519DBC1C351776002F5105 /* PJXIconView.h */,
+				C5519DBD1C351776002F5105 /* PJXIconView.m */,
+			);
+			name = PJXAnimatedTabBarController;
+			path = ../../PJXAnimatedTabBarController;
+			sourceTree = "<group>";
+		};
+		C5519D7C1C33B566002F5105 /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				C5519DA31C340708002F5105 /* BounceAnimation */,
+				C5519DA41C340708002F5105 /* FrameAnimation */,
+				C5519DA51C340708002F5105 /* FumeAnimation */,
+				C5519DA61C340708002F5105 /* RotationAnimation */,
+				C5519DA71C340708002F5105 /* TransitionAnimations */,
+			);
+			path = Animations;
+			sourceTree = "<group>";
+		};
+		C5519D9D1C33CB45002F5105 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C5519D9E1C33CB45002F5105 /* ToolsAnimation.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		C5519DA31C340708002F5105 /* BounceAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				C5519DB21C341E0D002F5105 /* PJXBounceAnimation.h */,
+				C5519DB31C341E0D002F5105 /* PJXBounceAnimation.m */,
+			);
+			path = BounceAnimation;
+			sourceTree = "<group>";
+		};
+		C5519DA41C340708002F5105 /* FrameAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				C5519DB51C3421D0002F5105 /* PJXFrameItemAnimation.h */,
+				C5519DB61C3421D0002F5105 /* PJXFrameItemAnimation.m */,
+			);
+			path = FrameAnimation;
+			sourceTree = "<group>";
+		};
+		C5519DA51C340708002F5105 /* FumeAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				C5519DAF1C3410F5002F5105 /* PJXFumeAnimation.h */,
+				C5519DB01C3410F5002F5105 /* PJXFumeAnimation.m */,
+			);
+			path = FumeAnimation;
+			sourceTree = "<group>";
+		};
+		C5519DA61C340708002F5105 /* RotationAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				C5519DC31C353701002F5105 /* PJXRotationAnimation.h */,
+				C5519DC41C353701002F5105 /* PJXRotationAnimation.m */,
+				C5519DD81C35525B002F5105 /* PJXLeftRotationAnimation.h */,
+				C5519DD91C35525B002F5105 /* PJXLeftRotationAnimation.m */,
+				C5519DDB1C355281002F5105 /* PJXRightRotationAnimation.h */,
+				C5519DDC1C355281002F5105 /* PJXRightRotationAnimation.m */,
+			);
+			path = RotationAnimation;
+			sourceTree = "<group>";
+		};
+		C5519DA71C340708002F5105 /* TransitionAnimations */ = {
+			isa = PBXGroup;
+			children = (
+				C5519DC91C353740002F5105 /* PJXTransitionItemAnimations.h */,
+				C5519DCA1C353740002F5105 /* PJXTransitionItemAnimations.m */,
+				C5519DCC1C35519D002F5105 /* PJXFlipLeftTransitionItemAniamtions.h */,
+				C5519DCD1C35519D002F5105 /* PJXFlipLeftTransitionItemAniamtions.m */,
+				C5519DCF1C3551C8002F5105 /* PJXFlipRightTransitionItemAnimations.h */,
+				C5519DD01C3551C8002F5105 /* PJXFlipRightTransitionItemAnimations.m */,
+				C5519DD21C3551F3002F5105 /* PJXFlipTopTransitionItemAnimations.h */,
+				C5519DD31C3551F3002F5105 /* PJXFlipTopTransitionItemAnimations.m */,
+				C5519DD51C355225002F5105 /* PJXFlipBottomTransitionItemAnimations.h */,
+				C5519DD61C355225002F5105 /* PJXFlipBottomTransitionItemAnimations.m */,
+			);
+			path = TransitionAnimations;
+			sourceTree = "<group>";
+		};
+		C5519DAB1C340F62002F5105 /* PJXBadge */ = {
+			isa = PBXGroup;
+			children = (
+				C5519DAC1C340F7D002F5105 /* PJXBadge.h */,
+				C5519DAD1C340F7D002F5105 /* PJXBadge.m */,
+			);
+			path = PJXBadge;
+			sourceTree = "<group>";
+		};
+		C5519DBF1C351FC4002F5105 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				C5519DC01C351FF2002F5105 /* NSArray+Extension.h */,
+				C5519DC11C351FF2002F5105 /* NSArray+Extension.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C5519D441C33B4A9002F5105 /* PJXAnimatedTabBarDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5519D721C33B4A9002F5105 /* Build configuration list for PBXNativeTarget "PJXAnimatedTabBarDemo" */;
+			buildPhases = (
+				C5519D411C33B4A9002F5105 /* Sources */,
+				C5519D421C33B4A9002F5105 /* Frameworks */,
+				C5519D431C33B4A9002F5105 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PJXAnimatedTabBarDemo;
+			productName = PJXAnimatedTabBarDemo;
+			productReference = C5519D451C33B4A9002F5105 /* PJXAnimatedTabBarDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C5519D5D1C33B4A9002F5105 /* PJXAnimatedTabBarDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5519D751C33B4A9002F5105 /* Build configuration list for PBXNativeTarget "PJXAnimatedTabBarDemoTests" */;
+			buildPhases = (
+				C5519D5A1C33B4A9002F5105 /* Sources */,
+				C5519D5B1C33B4A9002F5105 /* Frameworks */,
+				C5519D5C1C33B4A9002F5105 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C5519D601C33B4A9002F5105 /* PBXTargetDependency */,
+			);
+			name = PJXAnimatedTabBarDemoTests;
+			productName = PJXAnimatedTabBarDemoTests;
+			productReference = C5519D5E1C33B4A9002F5105 /* PJXAnimatedTabBarDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C5519D681C33B4A9002F5105 /* PJXAnimatedTabBarDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5519D781C33B4A9002F5105 /* Build configuration list for PBXNativeTarget "PJXAnimatedTabBarDemoUITests" */;
+			buildPhases = (
+				C5519D651C33B4A9002F5105 /* Sources */,
+				C5519D661C33B4A9002F5105 /* Frameworks */,
+				C5519D671C33B4A9002F5105 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C5519D6B1C33B4A9002F5105 /* PBXTargetDependency */,
+			);
+			name = PJXAnimatedTabBarDemoUITests;
+			productName = PJXAnimatedTabBarDemoUITests;
+			productReference = C5519D691C33B4A9002F5105 /* PJXAnimatedTabBarDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C5519D3D1C33B4A9002F5105 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = poloby;
+				TargetAttributes = {
+					C5519D441C33B4A9002F5105 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					C5519D5D1C33B4A9002F5105 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = C5519D441C33B4A9002F5105;
+					};
+					C5519D681C33B4A9002F5105 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = C5519D441C33B4A9002F5105;
+					};
+				};
+			};
+			buildConfigurationList = C5519D401C33B4A9002F5105 /* Build configuration list for PBXProject "PJXAnimatedTabBarDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C5519D3C1C33B4A9002F5105;
+			productRefGroup = C5519D461C33B4A9002F5105 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C5519D441C33B4A9002F5105 /* PJXAnimatedTabBarDemo */,
+				C5519D5D1C33B4A9002F5105 /* PJXAnimatedTabBarDemoTests */,
+				C5519D681C33B4A9002F5105 /* PJXAnimatedTabBarDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C5519D431C33B4A9002F5105 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5519D551C33B4A9002F5105 /* Assets.xcassets in Resources */,
+				C5519DA21C33D19D002F5105 /* LaunchScreen.storyboard in Resources */,
+				C5519D531C33B4A9002F5105 /* Main.storyboard in Resources */,
+				C5519D9F1C33CB45002F5105 /* ToolsAnimation.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5519D5C1C33B4A9002F5105 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5519D671C33B4A9002F5105 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C5519D411C33B4A9002F5105 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5519DCE1C35519D002F5105 /* PJXFlipLeftTransitionItemAniamtions.m in Sources */,
+				C5519DD71C355225002F5105 /* PJXFlipBottomTransitionItemAnimations.m in Sources */,
+				C5519DAE1C340F7D002F5105 /* PJXBadge.m in Sources */,
+				C5519D501C33B4A9002F5105 /* ViewController.m in Sources */,
+				C5519DAA1C340BDC002F5105 /* PJXItemAnimation.m in Sources */,
+				C5519D7F1C33B5B6002F5105 /* PJXAnimatedTabBarController.m in Sources */,
+				C5519DB71C3421D0002F5105 /* PJXFrameItemAnimation.m in Sources */,
+				C5519D4D1C33B4A9002F5105 /* AppDelegate.m in Sources */,
+				C5519DC21C351FF2002F5105 /* NSArray+Extension.m in Sources */,
+				C5519DBA1C342615002F5105 /* PJXAnimatedTabBarItem.m in Sources */,
+				C5519DDD1C355281002F5105 /* PJXRightRotationAnimation.m in Sources */,
+				C5519DD11C3551C8002F5105 /* PJXFlipRightTransitionItemAnimations.m in Sources */,
+				C5519DB41C341E0D002F5105 /* PJXBounceAnimation.m in Sources */,
+				C5519DD41C3551F3002F5105 /* PJXFlipTopTransitionItemAnimations.m in Sources */,
+				C5519DDA1C35525B002F5105 /* PJXLeftRotationAnimation.m in Sources */,
+				C5519DC51C353701002F5105 /* PJXRotationAnimation.m in Sources */,
+				C5519DB11C3410F5002F5105 /* PJXFumeAnimation.m in Sources */,
+				C5519DCB1C353740002F5105 /* PJXTransitionItemAnimations.m in Sources */,
+				C5519DBE1C351776002F5105 /* PJXIconView.m in Sources */,
+				C5519D4A1C33B4A9002F5105 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5519D5A1C33B4A9002F5105 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5519D631C33B4A9002F5105 /* PJXAnimatedTabBarDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5519D651C33B4A9002F5105 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5519D6E1C33B4A9002F5105 /* PJXAnimatedTabBarDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C5519D601C33B4A9002F5105 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C5519D441C33B4A9002F5105 /* PJXAnimatedTabBarDemo */;
+			targetProxy = C5519D5F1C33B4A9002F5105 /* PBXContainerItemProxy */;
+		};
+		C5519D6B1C33B4A9002F5105 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C5519D441C33B4A9002F5105 /* PJXAnimatedTabBarDemo */;
+			targetProxy = C5519D6A1C33B4A9002F5105 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C5519D511C33B4A9002F5105 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C5519D521C33B4A9002F5105 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C5519DA01C33D19D002F5105 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C5519DA11C33D19D002F5105 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C5519D701C33B4A9002F5105 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C5519D711C33B4A9002F5105 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C5519D731C33B4A9002F5105 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PJXAnimatedTabBarDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.panjianxiong.PJXAnimatedTabBarDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C5519D741C33B4A9002F5105 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PJXAnimatedTabBarDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.panjianxiong.PJXAnimatedTabBarDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C5519D761C33B4A9002F5105 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PJXAnimatedTabBarDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.panjianxiong.PJXAnimatedTabBarDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PJXAnimatedTabBarDemo.app/PJXAnimatedTabBarDemo";
+			};
+			name = Debug;
+		};
+		C5519D771C33B4A9002F5105 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PJXAnimatedTabBarDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.panjianxiong.PJXAnimatedTabBarDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PJXAnimatedTabBarDemo.app/PJXAnimatedTabBarDemo";
+			};
+			name = Release;
+		};
+		C5519D791C33B4A9002F5105 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PJXAnimatedTabBarDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.panjianxiong.PJXAnimatedTabBarDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PJXAnimatedTabBarDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		C5519D7A1C33B4A9002F5105 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PJXAnimatedTabBarDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.panjianxiong.PJXAnimatedTabBarDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PJXAnimatedTabBarDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C5519D401C33B4A9002F5105 /* Build configuration list for PBXProject "PJXAnimatedTabBarDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5519D701C33B4A9002F5105 /* Debug */,
+				C5519D711C33B4A9002F5105 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C5519D721C33B4A9002F5105 /* Build configuration list for PBXNativeTarget "PJXAnimatedTabBarDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5519D731C33B4A9002F5105 /* Debug */,
+				C5519D741C33B4A9002F5105 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C5519D751C33B4A9002F5105 /* Build configuration list for PBXNativeTarget "PJXAnimatedTabBarDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5519D761C33B4A9002F5105 /* Debug */,
+				C5519D771C33B4A9002F5105 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C5519D781C33B4A9002F5105 /* Build configuration list for PBXNativeTarget "PJXAnimatedTabBarDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5519D791C33B4A9002F5105 /* Debug */,
+				C5519D7A1C33B4A9002F5105 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C5519D3D1C33B4A9002F5105 /* Project object */;
+}
