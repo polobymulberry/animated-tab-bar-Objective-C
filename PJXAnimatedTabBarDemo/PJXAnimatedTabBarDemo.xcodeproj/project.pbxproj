@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C545C4811CC2014F00EE3EB7 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C545C4801CC2014F00EE3EB7 /* FirstViewController.m */; };
+		C545C4841CC2016000EE3EB7 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C545C4831CC2016000EE3EB7 /* SecondViewController.m */; };
+		C545C4871CC2016C00EE3EB7 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C545C4861CC2016C00EE3EB7 /* ThirdViewController.m */; };
+		C545C48A1CC2210000EE3EB7 /* TabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C545C4891CC2210000EE3EB7 /* TabBarViewController.m */; };
 		C5519D4A1C33B4A9002F5105 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C5519D491C33B4A9002F5105 /* main.m */; };
 		C5519D4D1C33B4A9002F5105 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C5519D4C1C33B4A9002F5105 /* AppDelegate.m */; };
 		C5519D501C33B4A9002F5105 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5519D4F1C33B4A9002F5105 /* ViewController.m */; };
@@ -53,6 +57,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C545C47F1CC2014F00EE3EB7 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		C545C4801CC2014F00EE3EB7 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		C545C4821CC2016000EE3EB7 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		C545C4831CC2016000EE3EB7 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		C545C4851CC2016C00EE3EB7 /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		C545C4861CC2016C00EE3EB7 /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		C545C4881CC2210000EE3EB7 /* TabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBarViewController.h; sourceTree = "<group>"; };
+		C545C4891CC2210000EE3EB7 /* TabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBarViewController.m; sourceTree = "<group>"; };
 		C5519D451C33B4A9002F5105 /* PJXAnimatedTabBarDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PJXAnimatedTabBarDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5519D491C33B4A9002F5105 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C5519D4B1C33B4A9002F5105 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -165,6 +177,14 @@
 				C5519D541C33B4A9002F5105 /* Assets.xcassets */,
 				C5519D591C33B4A9002F5105 /* Info.plist */,
 				C5519D481C33B4A9002F5105 /* Supporting Files */,
+				C545C47F1CC2014F00EE3EB7 /* FirstViewController.h */,
+				C545C4801CC2014F00EE3EB7 /* FirstViewController.m */,
+				C545C4821CC2016000EE3EB7 /* SecondViewController.h */,
+				C545C4831CC2016000EE3EB7 /* SecondViewController.m */,
+				C545C4851CC2016C00EE3EB7 /* ThirdViewController.h */,
+				C545C4861CC2016C00EE3EB7 /* ThirdViewController.m */,
+				C545C4881CC2210000EE3EB7 /* TabBarViewController.h */,
+				C545C4891CC2210000EE3EB7 /* TabBarViewController.m */,
 			);
 			path = PJXAnimatedTabBarDemo;
 			sourceTree = "<group>";
@@ -442,12 +462,15 @@
 			files = (
 				C5519DCE1C35519D002F5105 /* PJXFlipLeftTransitionItemAniamtions.m in Sources */,
 				C5519DD71C355225002F5105 /* PJXFlipBottomTransitionItemAnimations.m in Sources */,
+				C545C4871CC2016C00EE3EB7 /* ThirdViewController.m in Sources */,
 				C5519DAE1C340F7D002F5105 /* PJXBadge.m in Sources */,
+				C545C48A1CC2210000EE3EB7 /* TabBarViewController.m in Sources */,
 				C5519D501C33B4A9002F5105 /* ViewController.m in Sources */,
 				C5519DAA1C340BDC002F5105 /* PJXItemAnimation.m in Sources */,
 				C5519D7F1C33B5B6002F5105 /* PJXAnimatedTabBarController.m in Sources */,
 				C5519DB71C3421D0002F5105 /* PJXFrameItemAnimation.m in Sources */,
 				C5519D4D1C33B4A9002F5105 /* AppDelegate.m in Sources */,
+				C545C4841CC2016000EE3EB7 /* SecondViewController.m in Sources */,
 				C5519DC21C351FF2002F5105 /* NSArray+Extension.m in Sources */,
 				C5519DBA1C342615002F5105 /* PJXAnimatedTabBarItem.m in Sources */,
 				C5519DDD1C355281002F5105 /* PJXRightRotationAnimation.m in Sources */,
@@ -456,6 +479,7 @@
 				C5519DD41C3551F3002F5105 /* PJXFlipTopTransitionItemAnimations.m in Sources */,
 				C5519DDA1C35525B002F5105 /* PJXLeftRotationAnimation.m in Sources */,
 				C5519DC51C353701002F5105 /* PJXRotationAnimation.m in Sources */,
+				C545C4811CC2014F00EE3EB7 /* FirstViewController.m in Sources */,
 				C5519DB11C3410F5002F5105 /* PJXFumeAnimation.m in Sources */,
 				C5519DCB1C353740002F5105 /* PJXTransitionItemAnimations.m in Sources */,
 				C5519DBE1C351776002F5105 /* PJXIconView.m in Sources */,
