@@ -9,5 +9,5 @@
 #import "PJXItemAnimation.h"
 
 @interface PJXFrameItemAnimation : PJXItemAnimation
-
+- (void)createImagesArray:(NSArray *)imageNames;
 @end
