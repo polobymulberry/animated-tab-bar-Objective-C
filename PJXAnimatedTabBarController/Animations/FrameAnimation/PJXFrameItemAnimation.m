@@ -32,20 +32,6 @@
     return self;
 }
 
-- (void)awakeFromNib
-{
-    NSString *path = [[NSBundle mainBundle] pathForResource:self.imagesPath ofType:@"plist"];
-    
-    NSDictionary *dict = [NSDictionary dictionaryWithContentsOfFile:path];
-    
-    NSArray<NSString *> *animationImagesName = dict[@"images"];
-    [self createImagesArray:animationImagesName];
-    
-    // selected image
-    NSString *selectedImageName = animationImagesName[animationImagesName.count - 1];
-    self.selectedImage = [UIImage imageNamed:selectedImageName];
-}
-
 - (void)createImagesArray:(NSArray *)imageNames
 {
     for (NSString *name in imageNames) {

@@ -16,11 +16,13 @@
 #import "FirstViewController.h"
 #import "SecondViewController.h"
 #import "ThirdViewController.h"
+#import "FourthViewController.h"
 
 // Animations
 #import "PJXBounceAnimation.h"
 #import "PJXFumeAnimation.h"
 #import "PJXRotationAnimation.h"
+#import "PJXFrameItemAnimation.h"
 
 @interface TabBarViewController ()
 
@@ -64,7 +66,7 @@
     UINavigationController *secondNav = [[UINavigationController alloc] initWithRootViewController:secondViewController];
     secondNav.tabBarItem = secondTabBarItem;
     
-    // Third ViewContrller
+    // Third ViewController
     PJXRotationAnimation *rotationAnimation = [[PJXRotationAnimation alloc] init];
     rotationAnimation.textSelectedColor = [UIColor blueColor];
     rotationAnimation.iconSelectedColor = [UIColor blueColor];
@@ -81,7 +83,35 @@
     UINavigationController *thirdNav = [[UINavigationController alloc] initWithRootViewController:thirdViewController];
     thirdNav.tabBarItem = thirdTabBarItem;
     
-    self.viewControllers = @[firstNav, secondNav, thirdNav];
+    // Fourth ViewController
+    PJXFrameItemAnimation *frameAnimation = [[PJXFrameItemAnimation alloc] init];
+    frameAnimation.textSelectedColor = [UIColor brownColor];
+    frameAnimation.iconSelectedColor = [UIColor blueColor];
+    frameAnimation.duration = 0.5f;
+    [frameAnimation createImagesArray:@[@"Tools_00028",@"Tools_00029", @"Tools_00030", @"Tools_00031", @"Tools_00032", @"Tools_00033",
+                                        @"Tools_00034", @"Tools_00035", @"Tools_00036", @"Tools_00037", @"Tools_00038", @"Tools_00039",
+                                        @"Tools_00040", @"Tools_00041", @"Tools_00042", @"Tools_00043", @"Tools_00044", @"Tools_00045",
+                                        @"Tools_00046", @"Tools_00047", @"Tools_00048", @"Tools_00049", @"Tools_00050", @"Tools_00051",
+                                        @"Tools_00052", @"Tools_00053", @"Tools_00054", @"Tools_00055", @"Tools_00056", @"Tools_00057",
+                                        @"Tools_00058", @"Tools_00059", @"Tools_00060", @"Tools_00061", @"Tools_00062", @"Tools_00063",
+                                        @"Tools_00064", @"Tools_00065"]];
+    
+    
+    PJXAnimatedTabBarItem *fourthTabBarItem = [[PJXAnimatedTabBarItem alloc] initWithTitle:@"Frame Animation" image:[UIImage imageNamed:@"Tools_00028"] selectedImage:nil];
+    fourthTabBarItem.animation = frameAnimation;
+    fourthTabBarItem.textColor = [UIColor brownColor];
+    UIImageView *fourthIconView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"Tools_00028"]];
+    UILabel *fourthLabel = [[UILabel alloc] init];
+    thirdLabel.text = @"Frame Animation";
+    thirdTabBarItem.iconView = [[PJXIconView alloc] initWithIcon:fourthIconView textLabel:fourthLabel];
+    
+    
+    FourthViewController *fourthViewController = [[FourthViewController alloc] init];
+    UINavigationController *fourthNav = [[UINavigationController alloc] initWithRootViewController:fourthViewController];
+    fourthNav.tabBarItem = fourthTabBarItem;
+    
+    
+    self.viewControllers = @[firstNav, secondNav, thirdNav, fourthNav];
     
     [super viewDidLoad];
 }

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		92E25E371E3EA5D900F8C29C /* FourthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92E25E351E3EA5D900F8C29C /* FourthViewController.m */; };
 		C545C4811CC2014F00EE3EB7 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C545C4801CC2014F00EE3EB7 /* FirstViewController.m */; };
 		C545C4841CC2016000EE3EB7 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C545C4831CC2016000EE3EB7 /* SecondViewController.m */; };
 		C545C4871CC2016C00EE3EB7 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C545C4861CC2016C00EE3EB7 /* ThirdViewController.m */; };
@@ -57,6 +58,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		92E25E351E3EA5D900F8C29C /* FourthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FourthViewController.m; sourceTree = "<group>"; };
+		92E25E361E3EA5D900F8C29C /* FourthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FourthViewController.h; sourceTree = "<group>"; };
 		C545C47F1CC2014F00EE3EB7 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
 		C545C4801CC2014F00EE3EB7 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
 		C545C4821CC2016000EE3EB7 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
@@ -183,6 +186,8 @@
 				C545C4831CC2016000EE3EB7 /* SecondViewController.m */,
 				C545C4851CC2016C00EE3EB7 /* ThirdViewController.h */,
 				C545C4861CC2016C00EE3EB7 /* ThirdViewController.m */,
+				92E25E351E3EA5D900F8C29C /* FourthViewController.m */,
+				92E25E361E3EA5D900F8C29C /* FourthViewController.h */,
 				C545C4881CC2210000EE3EB7 /* TabBarViewController.h */,
 				C545C4891CC2210000EE3EB7 /* TabBarViewController.m */,
 			);
@@ -396,6 +401,7 @@
 				TargetAttributes = {
 					C5519D441C33B4A9002F5105 = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = ZHR26XA8VG;
 					};
 					C5519D5D1C33B4A9002F5105 = {
 						CreatedOnToolsVersion = 7.2;
@@ -481,6 +487,7 @@
 				C5519DC51C353701002F5105 /* PJXRotationAnimation.m in Sources */,
 				C545C4811CC2014F00EE3EB7 /* FirstViewController.m in Sources */,
 				C5519DB11C3410F5002F5105 /* PJXFumeAnimation.m in Sources */,
+				92E25E371E3EA5D900F8C29C /* FourthViewController.m in Sources */,
 				C5519DCB1C353740002F5105 /* PJXTransitionItemAnimations.m in Sources */,
 				C5519DBE1C351776002F5105 /* PJXIconView.m in Sources */,
 				C5519D4A1C33B4A9002F5105 /* main.m in Sources */,
@@ -622,6 +629,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ZHR26XA8VG;
 				INFOPLIST_FILE = PJXAnimatedTabBarDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.panjianxiong.PJXAnimatedTabBarDemo;
@@ -633,6 +641,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ZHR26XA8VG;
 				INFOPLIST_FILE = PJXAnimatedTabBarDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.panjianxiong.PJXAnimatedTabBarDemo;
