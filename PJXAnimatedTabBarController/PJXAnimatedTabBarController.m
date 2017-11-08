@@ -154,6 +154,7 @@
     tapGesture.numberOfTouchesRequired = 1;
     [viewContainer addGestureRecognizer:tapGesture];
     
+    /*
     // add constrains
     NSLayoutConstraint *constY = [NSLayoutConstraint constraintWithItem:viewContainer
                                                               attribute:NSLayoutAttributeBottom
@@ -163,6 +164,13 @@
                                                              multiplier:1
                                                                constant:0];
     [self.view addConstraint:constY];
+    
+    */
+    
+    #pragma mark:- Added a new Constraint
+    //To Resolve Bug in iPhoneX Devide Added a new Bottom Constaint
+    [viewContainer.bottomAnchor constraintEqualToAnchor:self.bottomLayoutGuide.topAnchor].active = YES;
+
     
     NSLayoutConstraint *constH = [NSLayoutConstraint constraintWithItem:viewContainer
                                                               attribute:NSLayoutAttributeHeight
